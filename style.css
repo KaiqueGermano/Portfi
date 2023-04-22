@@ -1,0 +1,167 @@
+* {
+    padding: 0;
+    margin: 10;
+    color: #FFFFFF;
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #222222;
+    background-size: contain;
+    height: 100%vh;
+    font-family:'Poppins';
+}
+
+header{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff8c;
+}
+
+#title{
+    color: #ffffff8c;
+}
+p{
+    color: #FFFFFF;
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    border: 1px solid ;
+    border-radius: 50px;
+
+    width: 55px;
+    height: 55px;
+}
+
+#itens{
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+h1{
+    font-size: 30px;
+}
+
+#perfil {
+    border: 10px solid;
+    border-color: #B6B6B8;
+    border-radius: 538px;
+
+    width: 428px;
+    height: 428px;
+}
+
+#habi{
+    border: 2px solid #252525;
+    border-right:none;
+    border-left: none;
+    background: 333333;
+    color: #FFFFFF;
+}
+
+.plugin{
+    height: 50px;
+    width: 50px;
+}
+
+#plugin_habi{
+    display: inline-table;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#habilidades{
+    display: flex;
+    justify-content: space-between;
+}
+aside{
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+    justify-content: center;
+}
+
+.barra_HTML{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background: #B6B6B8;
+}
+
+.barra_CSS{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background: #B6B6B8;
+}
+
+.barra_JS{
+    width: 300px;
+    height: 20px;
+    border-radius: 10px;
+    background: #B6B6B8;
+}
+
+.barra_HTML div{
+    height: 100%;
+    border-radius: 10px;
+    background-color:#007CED;
+    width: 100% 
+}
+.barra_CSS div{
+    height: 100%;
+    border-radius: 10px;
+    background-color:#007CED; 
+    width: 70% ;
+}
+.barra_JS div{
+    height: 100%;
+    border-radius: 10px;
+    background-color:#007CED;
+    width: 50% ;
+}
+
+nav{
+   display: flex;
+   align-items: center;
+   gap: 30px; 
+}
+
+.img_port{
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+details{
+    display: flex;
+}
+
+#portifolio{
+    display: flex;
+    justify-content: center;
+}
+
+#sobre{
+    color: #007CED;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

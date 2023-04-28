@@ -1,5 +1,5 @@
 * {
-    padding: 0;
+    padding: 10;
     margin: 10;
     color: #FFFFFF;
     scroll-behavior: smooth;
@@ -7,7 +7,7 @@
 
 body{
     background-color: #222222;
-    background-size: contain;
+    background-size: cover;
     height: 100%vh;
     font-family:'Poppins';
 }
@@ -25,7 +25,7 @@ a{
     text-decoration: none;
     color: #ffffff8c;
 }
-
+/* stilo da home */
 #title{
     color: #ffffff8c;
 }
@@ -42,11 +42,11 @@ p{
     width: 55px;
     height: 55px;
 }
-
+/*navegação do topo*/
 #itens{
     list-style: none;
     display: flex;
-    gap: 10px;
+    gap: 20px;
 }
 
 #home{
@@ -58,7 +58,7 @@ p{
 h1{
     font-size: 30px;
 }
-
+/*foto de perfil na home */
 #perfil {
     border: 10px solid;
     border-color: #B6B6B8;
@@ -67,8 +67,8 @@ h1{
     width: 428px;
     height: 428px;
 }
-
-#habi{
+/*estilo das skills */
+#divisor{
     border: 2px solid #252525;
     border-right:none;
     border-left: none;
@@ -85,12 +85,15 @@ h1{
     display: inline-table;
     flex-direction: column;
     justify-content: center;
+    list-style: none;
 }
 
 #habilidades{
     display: flex;
     justify-content: space-between;
 }
+
+/*barras de progressão*/
 aside{
     display: flex;
     flex-direction: column;
@@ -118,7 +121,7 @@ aside{
     border-radius: 10px;
     background: #B6B6B8;
 }
-
+/* % das barras*/
 .barra_HTML div{
     height: 100%;
     border-radius: 10px;
@@ -137,31 +140,70 @@ aside{
     background-color:#007CED;
     width: 50% ;
 }
-
-nav{
-   display: flex;
+/* estilo do footer*/
+#contato{
+   display: flex ;
    align-items: center;
-   gap: 30px; 
+   gap: 30px;
 }
-
+/*img dos projetos*/
 .img_port{
     height: 200px;
     width: 400px;
     border-radius: 20px;
 }
-
-details{
-    display: flex;
-}
-
+/* estilo portifolio*/
 #portifolio{
     display: flex;
     justify-content: center;
 }
 
-#sobre{
-    color: #007CED;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+/* mediaQuery smartphone*/
+@media (max-width: 481px) {
+
+    html{
+        width: 100vw;
+    }
+
+    header{
+        font-size: 15px;
+    }
+
+    #logo{
+        width: 40px;
+        height: 40px;
+    }
+
+    #perfil{
+        width: 214px;
+        height:214px;
+    }
+
+    #home{
+        font-size: 14px;
+    }
+
+    ;.img_port{
+        height: 200px;
+        width: 100px;
+    }
+
+    #portifolio{
+        overflow-x: scroll;
+        display: flex;
+        justify-content:left;
+    }
+
+    footer{
+        font-size: 15px;
+    }
+
+    .img_footer{
+        width: 30px;
+        height: 30px;
+    }
+
+    #contato p {
+        
+    }
 }

@@ -159,7 +159,7 @@ aside{
 }
 
 /* mediaQuery smartphone*/
-@media (max-width: 481px) {
+@media (max-width: 441px) {
 
     html{
         width: 100vw;

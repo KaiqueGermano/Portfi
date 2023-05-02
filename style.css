@@ -208,3 +208,15 @@ aside{
         
     }
 }
+
+/* mediaquery smartphone medium*/
+@media (max-width:379px) {
+        html, body{
+            padding: 0%;
+            margin: 0%;
+        }
+
+        #home{
+            flex-direction:column;
+        }
+}
